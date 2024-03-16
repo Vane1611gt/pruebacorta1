@@ -1,0 +1,26 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 50px;
+}
+
+image-container {
+    position: absolute;
+    top: 150px;
+    left: 700px;
+    width: 405px;
+    height: 666px;
+}
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+nav {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

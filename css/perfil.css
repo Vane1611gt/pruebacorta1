@@ -1,0 +1,21 @@
+
+.perfil {
+
+    padding: 20px;
+     background-color: blanchedalmond;
+}
+
+.img-perfil img {
+    
+    width: 200px; 
+    height: auto; 
+}
+
+
+h1 {
+    color:hsl(0, 9%, 87%); 
+}
+
+p {
+    color:hsl(0, 9%, 87%);
+}

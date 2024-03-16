@@ -1,0 +1,22 @@
+/* Estilos para mover la imagen dentro del contenedor */
+.testo{
+    position: relative; /* Establece el contenedor como referencia para las posiciones absolutas de los hijos */
+    width: 2000px; /* Ancho del contenedor */
+    height: 300px; /* Altura del contenedor */
+}
+
+.testo img {
+    position: absolute; /* Permite mover la imagen dentro del contenedor */
+    /* Define las posiciones de la imagen dentro del contenedor */
+    top: 25px; /* Mover hacia abajo */
+    left: 50px; /* Mover hacia la derecha */
+    /* Puedes ajustar los valores de top y left según tu preferencia */
+}
+/* Estilo para el texto "About us" */
+.about-us {
+    position: absolute; /* Permite mover el texto dentro del contenedor */
+    top: 45px; /* Mover hacia abajo */
+    left: 860px; /* Ajusta la posición horizontal para que esté a la par del rectángulo */
+    font-size: 25px;
+    color: #1A2434;
+}
